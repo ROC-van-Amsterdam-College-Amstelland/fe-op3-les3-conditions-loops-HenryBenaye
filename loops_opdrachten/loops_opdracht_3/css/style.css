@@ -1,1 +1,18 @@
 /* stylesheet */
+body{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+#resultaat{
+    display: flex;
+    flex-direction: row  ;
+    height: 800px;
+}
+
+
+.color{
+    color:red;
+}
