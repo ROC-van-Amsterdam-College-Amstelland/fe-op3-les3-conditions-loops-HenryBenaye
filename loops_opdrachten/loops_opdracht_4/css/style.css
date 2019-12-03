@@ -1,1 +1,11 @@
 /* stylesheet */
+
+body{
+    height: 1000px;
+    width: 1000px;
+}
+
+#resultaat{
+    height: 250px;
+    width: 250px;
+}
