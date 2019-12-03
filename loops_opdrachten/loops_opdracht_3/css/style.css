@@ -8,8 +8,9 @@ body{
 
 #resultaat{
     display: flex;
-    flex-direction: row  ;
+    flex-direction: column    ;
     height: 800px;
+    font-size: 20px;
 }
 
 
