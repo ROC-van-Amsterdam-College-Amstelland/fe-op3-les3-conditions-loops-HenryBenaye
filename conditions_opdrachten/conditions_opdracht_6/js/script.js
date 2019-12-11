@@ -1,14 +1,21 @@
 //javascript code
 
-var myOperator = '*';
+var myOperator = prompt("geef operator");
 
 var myNumber1 = 2;
 var myNumber2 = 5;
 
 if( myOperator == '*' ){
-    prompt(myNumber1 * myNumber2);
+    alert(myNumber1 * myNumber2);  
     document.getElementById("resultaat").innerHTML 
 }
-else{
+
+if( myOperator == '/' ){
     prompt(myNumber1 / myNumber2);
+    document.getElementById("resultaat").innerHTML 
 }
+
+// if( myOperator == '/' ){
+//     prompt(myNumber1 / myNumber2);
+//     document.getElementById("resultaat").innerHTML 
+// }
